@@ -9,7 +9,7 @@ Crie uma imagem Docker, faça o push para o DockerHub e informe seu caminho no c
 Os campos da tabela de transactions serão: id, account_id, amount, created_at, updated_at
 
 ### Insomnia
-Disponível collection e environment do Insomnia para execução de testes.
+Disponível [collection](https://github.com/wr2net/challenge-01-fullcycle6/blob/master/Insomnia/collections.json) e [environment](https://github.com/wr2net/challenge-01-fullcycle6/blob/master/Insomnia/environment.json) do Insomnia para execução de testes.
 
 ### Docker
 Imagem disponível: wr2net/challenge-01-fullcycle6
