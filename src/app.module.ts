@@ -8,7 +8,7 @@ import { TransactionsModule } from './transactions/transactions.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'sqlite',
-      database: './docker/dbdata/db',
+      database: './.docker/dbdata/db',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
